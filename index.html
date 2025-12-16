@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sidra Aziz | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --bg: #fefefe;
+      --card: #ffffff;
+      --peach: #f6c1b5;
+      --green: #b7e4c7;
+      --text: #374151;
+      --muted: #6b7280;
+    }
+
+    body{
+      margin:0;
+      font-family:'Poppins', sans-serif;
+      background: linear-gradient(120deg, var(--peach), var(--green));
+      color:var(--text);
+    }
+
+    .container{
+      max-width:1000px;
+      margin:auto;
+      padding:20px;
+    }
+
+    header{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      margin-bottom:30px;
+      background:rgba(255,255,255,0.6);
+      padding:15px 20px;
+      border-radius:14px;
+      backdrop-filter: blur(6px);
+    }
+
+    header h1{
+      font-size:22px;
+      margin:0;
+    }
+
+    nav a{
+      color:var(--text);
+      margin-left:15px;
+      text-decoration:none;
+      font-size:14px;
+      font-weight:500;
+    }
+
+    nav a:hover{
+      text-decoration:underline;
+    }
+
+    .card{
+      background:rgba(255,255,255,0.85);
+      padding:20px;
+      border-radius:16px;
+      margin-bottom:20px;
+      box-shadow:0 12px 30px rgba(0,0,0,0.1);
+    }
+
+    h2{
+      margin-top:0;
+      color:#065f46;
+    }
+
+    p{
+      color:var(--muted);
+      line-height:1.7;
+    }
+
+    .skills span{
+      display:inline-block;
+      background:var(--green);
+      padding:6px 14px;
+      border-radius:20px;
+      font-size:13px;
+      margin:6px;
+      color:#064e3b;
+    }
+
+    .projects{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:16px;
+    }
+
+    .project{
+      background:#ffffff;
+      padding:16px;
+      border-radius:14px;
+      border-left:6px solid var(--peach);
+    }
+
+    .project h3{
+      margin-top:0;
+      font-size:16px;
+      color:#92400e;
+    }
+
+    .btn{
+      display:inline-block;
+      margin-top:10px;
+      padding:10px 18px;
+      background:#10b981;
+      color:white;
+      text-decoration:none;
+      border-radius:10px;
+      font-size:14px;
+    }
+
+    .btn:hover{
+      background:#059669;
+    }
+
+    footer{
+      text-align:center;
+      margin-top:30px;
+      font-size:13px;
+      color:#374151;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <header>
+    <h1>Sidra Aziz</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about" class="card">
+    <h2>About Me</h2>
+    <p>
+      I am a BS-IT student with a passion for technology and creative design.
+      I enjoy learning new tools and building practical digital projects.
+    </p>
+  </section>
+
+  <section id="skills" class="card">
+    <h2>Skills</h2>
+    <div class="skills">
+      <span>Graphic Designing</span>
+      <span>HTML & CSS</span>
+      <span>Basic JavaScript</span>
+      <span>AI Tools</span>
+      <span>Cyber Security Basics</span>
+      <span>Content Writing</span>
+    </div>
+  </section>
+
+  <section id="projects" class="card">
+    <h2>Projects</h2>
+    <div class="projects">
+
+      <div class="project">
+        <h3>Personal Portfolio Website</h3>
+        <p>Responsive portfolio website using HTML and CSS.</p>
+      </div>
+
+      <div class="project">
+        <h3>Graphic Design Projects</h3>
+        <p>Social media designs created with Canva.</p>
+      </div>
+
+      <div class="project">
+        <h3>AI Tools Research</h3>
+        <p>Research project on productivity-focused AI tools.</p>
+      </div>
+
+      <div class="project">
+        <h3>Cyber Security Basics Guide</h3>
+        <p>Awareness guide for safe online practices.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact" class="card">
+    <h2>Contact</h2>
+    <p>Email: your.email@example.com</p>
+    <p>WhatsApp: +92-300-0000000</p>
+    <a class="btn" href="mailto:your.email@example.com">Send Email</a>
+  </section>
+
+  <footer>
+    © 2025 Sidra Aziz | All Rights Reserved
+  </footer>
+
+</div>
+
+</body>
+</html>
